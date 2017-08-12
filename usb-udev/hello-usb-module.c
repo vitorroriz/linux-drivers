@@ -5,7 +5,6 @@
 #include <linux/hid.h>
 
 /* A USB driver need to provide the USB subsystem with five things
- * .owner      - a pointer to the moduler that owns this driver 
  * .name       - the name of the USB driver
  * .id_table   - list of USB IDs for the hot-plug matching scheme
  * .probe      - a probe function called when there is a match
